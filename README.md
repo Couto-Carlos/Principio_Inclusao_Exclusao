@@ -1,3 +1,9 @@
+Este trabalho apresenta um programa Java que permite calcular a quantidade de elementos na união de conjuntos, fazendo uso do Princípio da Inclusão-Exclusão. O Princípio da Inclusão-Exclusão é uma técnica matemática amplamente utilizada para calcular a cardinalidade da união de múltiplos conjuntos. O código Java desenvolvido recebe uma quantidade finita de conjuntos e elementos e calcula a quantidade total de elementos na união desses conjuntos. Para alcançar esse objetivo, o programa utiliza estruturas de dados do tipo lista para representar os conjuntos, permitindo a adição de elementos de maneira flexível. Em seguida, aplica o Princípio da Inclusão-Exclusão, somando o tamanho de cada conjunto e subtraindo o tamanho das interseções iterativamente. Isso resulta no número desejado de elementos na união dos conjuntos. O trabalho fornece um exemplo prático de aplicação do código, mas pode ser adaptado para calcular a união de qualquer número de conjuntos e elementos de entrada. A abordagem utilizada neste trabalho não depende do uso de estruturas de dados baseadas em hash, tornando-a adequada para diferentes tipos de conjuntos.
+
+Metodos Utilizados:
+
+RetainAll:
+
 o retainAll é um método de conjuntos (ou no caso de List, ele é tratado como um conjunto) em Java que realiza a operação de interseção entre dois conjuntos, removendo todos os elementos que não estão presentes em ambos os conjuntos.
 
 Para explicar mais detalhadamente, considere dois conjuntos A e B:
